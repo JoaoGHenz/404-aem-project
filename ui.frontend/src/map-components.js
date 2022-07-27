@@ -7,6 +7,7 @@ import Image from './components/Image/Image'
 import TextComponent from './components/micro/Text/TextComponent'
 import TitleComponent from './components/micro/Title/TitleComponent'
 import HeaderComponent from './components/container/Header/HeaderComponent'
+import ButtonComponent from './components/micro/Button/ButtonComponent'
 import MultifieldExampleComponent from './components/MultifieldExampleComponent/MultifieldExampleComponent'
 import {
   withComponentMappingContext,
@@ -45,10 +46,13 @@ MapTo('vue/components/textcomponent')(TextComponent, EditConfig)
 // Title Component Mapping
 MapTo('vue/components/titlecomponent')(TitleComponent, EditConfig)
 
-// Title Component Mapping
+// Header Component Mapping
 MapTo('vue/components/headercomponent')(HeaderComponent, EditConfig)
 
-// Header Component Mapping
+// Button Component Mapping
+MapTo('vue/components/buttoncomponent')(ButtonComponent, EditConfig)
+
+// Fake Header Component Mapping
 MapTo('vue/components/header')(Header, EditConfig)
 
 // Image Component Mapping
