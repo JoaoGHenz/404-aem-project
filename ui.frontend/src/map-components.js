@@ -4,6 +4,7 @@ import AppPage from './components/Page/AppPage'
 import CheckBox from './components/Checkbox/Checkbox'
 import Header from './components/Header/Header'
 import Image from './components/Image/Image'
+import TextComponent from './components/micro/Text/TextComponent'
 import MultifieldExampleComponent from './components/MultifieldExampleComponent/MultifieldExampleComponent'
 import {
   withComponentMappingContext,
@@ -35,6 +36,9 @@ MapTo('vue/components/multifield-example-component')(
 
 // Checkbox Component Mapping
 MapTo('vue/components/checkbox')(CheckBox, EditConfig)
+
+// Text Component Mapping
+MapTo('vue/components/textcomponent')(TextComponent, EditConfig)
 
 // Header Component Mapping
 MapTo('vue/components/header')(Header, EditConfig)
