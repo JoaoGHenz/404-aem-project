@@ -1,6 +1,6 @@
 <template>
     <header>
-        <TitleComponent :text="textHeader" type="h1" :titleClass="classHeader" />
+        <TitleComponent :text="textHeader" type="h1" titleClass="header" />
     </header>
 </template>
 
@@ -15,15 +15,15 @@ export default {
   props: {
     textHeader: {
       type: String
-    },
-    classHeader: {
-      type: String
     }
+    /* classHeader: {
+      type: String
+    } */
   }
 }
 
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
