@@ -4,7 +4,7 @@
     <h3 :class="titleClass" v-else-if="type === 'h3'">{{ text }}</h3>
     <h4 :class="titleClass" v-else-if="type === 'h4'">{{ text }}</h4>
     <h5 :class="titleClass" v-else-if="type === 'h5'">{{ text }}</h5>
-    <h6 :class="titleClass" v-else-if="type === 'h5'">{{ text }}</h6>
+    <h6 :class="titleClass" v-else-if="type === 'h6'">{{ text }}</h6>
 </template>
 
 <script>
