@@ -38,4 +38,13 @@ export default {
     font-size: 24px;
 }
 
+.mainTitle {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #333333;
+    margin: 0;
+}
+
 </style>
