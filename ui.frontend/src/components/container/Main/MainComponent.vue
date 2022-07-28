@@ -45,6 +45,11 @@ main {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
+
+   @media (max-width: 768px) {
+    max-width: 90%;
+    height: 40%
+   }
 }
 
 </style>

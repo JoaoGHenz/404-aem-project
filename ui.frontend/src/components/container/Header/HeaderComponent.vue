@@ -26,4 +26,17 @@ export default {
 
 <style lang="scss" scoped>
 
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  .header {
+    margin: 0 0 10%;
+    @media (max-width: 768px)  {
+      margin: 0 0 5%;
+    }
+  }
+}
+
 </style>

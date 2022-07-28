@@ -17,4 +17,10 @@ export default {
 img {
   max-width: 40vw;
 }
+
+@media (max-width: 768px) {
+  img {
+    max-width: 60vw;
+  }
+}
 </style>
