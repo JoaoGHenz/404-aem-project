@@ -8,6 +8,7 @@ import TextComponent from './components/micro/Text/TextComponent'
 import TitleComponent from './components/micro/Title/TitleComponent'
 import HeaderComponent from './components/container/Header/HeaderComponent'
 import ButtonComponent from './components/micro/Button/ButtonComponent'
+import FooterComponent from './components/container/Footer/FooterComponent'
 import MultifieldExampleComponent from './components/MultifieldExampleComponent/MultifieldExampleComponent'
 import {
   withComponentMappingContext,
@@ -51,6 +52,9 @@ MapTo('vue/components/headercomponent')(HeaderComponent, EditConfig)
 
 // Button Component Mapping
 MapTo('vue/components/buttoncomponent')(ButtonComponent, EditConfig)
+
+// Footer Component Mapping
+MapTo('vue/components/footercomponent')(FooterComponent, EditConfig)
 
 // Fake Header Component Mapping
 MapTo('vue/components/header')(Header, EditConfig)
