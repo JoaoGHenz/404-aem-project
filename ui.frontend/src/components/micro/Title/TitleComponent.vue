@@ -36,6 +36,7 @@ export default {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
+    line-height: 25px;
 }
 
 .mainTitle {
@@ -45,6 +46,15 @@ export default {
     font-size: 64px;
     color: #333333;
     margin: 0;
+
+    @media (max-width: 768px) {
+    font-size: 43px;
+    line-height: 71px;
+   }
 }
+
+.footerTitle {
+    margin: 5% 0 0;
+  }
 
 </style>

@@ -31,6 +31,13 @@ export default {
   font-size: 14px;
   color: #BDBDBD;
   text-align: center;
+  margin: 5% 0 0;
+  p {
+    margin: 0;
+  }
+  @media (max-width: 768px)  {
+      margin: 2% 0 0;
+    }
 }
 
 </style>

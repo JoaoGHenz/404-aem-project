@@ -28,5 +28,11 @@ export default {
     font-weight: 400;
     font-size: 24px;
     color: #4F4F4F;
+    width: 60%;
+
+    @media (max-width: 768px) {
+    font-size: 18px;
+    line-height: 27px;
+   }
 }
 </style>
